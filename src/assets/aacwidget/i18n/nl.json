@@ -1,0 +1,62 @@
+{
+	"common": {
+		"message": {
+			"address-not-found": "Het adres werd niet herkend.",
+			"address-validated": "Het adres werd gevalideerd.",
+			"service-unavailable": "Er kon geen verbinding gemaakt worden. Probeer later opnieuw."
+		},
+		"label": {
+			"boxNumber": "postbus",
+			"streetNumber": "huisnummer",
+			"municipalityName": "gemeente",
+			"postalCode": "postcode",
+			"streetName": "straatnaam"
+		}
+	},
+	"locality": {
+		"placeholder": {
+			"input-placeholder": "Voer een postal code / deelgemeente in ..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> is een deelgemeente van <em>{{principal}}</em>"
+			}
+		}
+	},
+	"street": {
+		"placeholder": {
+			"input-placeholder": "Voer een straat naam in ..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> is een deelgemeente van <em>{{principal}}</em>"
+			}
+		}
+	},
+	"streetNumber": {
+		"placeholder": {
+			"input-placeholder": "Voer een straat nummer in ..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> is een deelgemeente van <em>{{principal}}</em>"
+			}
+		},
+		"message": {
+			"not-in-list": "Het straat nummer staat niet in de lijst"
+		}
+	},
+	"boxNumber": {
+		"placeholder": {
+			"input-placeholder": "Voer een bus nummer in ..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> is een deelgemeente van <em>{{principal}}</em>"
+			}
+		},
+		"message": {
+			"not-in-list": "Het bus nummer staat niet in de lijst"
+		}
+	}
+}
