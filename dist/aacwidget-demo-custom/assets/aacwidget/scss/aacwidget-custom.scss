@@ -1,0 +1,81 @@
+// ///////////////////////////////////////////////////////
+
+@media screen and (min-width: 641px) {
+
+	.aacwidget-address-container {
+
+        margin-bottom: 30px;
+        
+		.aacwidget-address-locality {
+		}
+		
+		.aacwidget-address-street {
+			position: absolute;
+			width: 40%;
+			.bpaac-input-width {
+				width: 100%;
+			}
+		}
+
+		.aacwidget-address-streetnumber {
+			position: absolute;
+			left: 45%;
+			width: 20%;
+			.bpaac-input-width {
+				width: 90%;
+			}
+			.streetNbChekmark {
+				position: relative;
+				left: 5px;
+			}
+		}
+
+		.aacwidget-address-boxnumber {
+			position: absolute;
+			left: 70%;
+			.bpaac-input-width {
+				width: 80%;
+				position: relative;
+			}
+			.boxNbChekmark {
+				position: relative;
+				left: 5px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.aacwidget-address-container {
+	
+		margin-bottom: 20px;
+
+		.aacwidget-address-locality {
+		}
+		
+		.aacwidget-address-street {
+		}
+	
+		.aacwidget-address-streetnumber {
+			.bpaac-input-width {
+				width: 90%;
+			}
+			.streetNbChekmark {
+				position: relative;
+			}
+		}
+	
+		.aacwidget-address-boxnumber {
+			.bpaac-input-width {
+				width: 90%;
+				position: relative;
+			}
+			.boxNbChekmark {
+				position: relative;
+			}
+		}
+	}
+}
+	
+
+

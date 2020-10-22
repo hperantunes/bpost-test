@@ -1,0 +1,62 @@
+{
+	"common": {
+		"message": {
+			"address-not-found": "Adresse nicht erkannt.",
+			"address-validated": "Die Adresse wurde validiert",
+			"service-unavailable": "Der Dienst ist nicht verfügbar. Bitte versuchen Sie es später erneut."
+		},
+		"label": {
+			"boxNumber": "Boxnummer",
+			"streetNumber": "Hausnummer",
+			"municipalityName": "Gemeinde",
+			"postalCode": "Postleitzahl",
+			"streetName": "Straßennamen"
+		}
+	},
+	"locality": {
+		"placeholder": {
+			"input-placeholder": "Geben Sie eine Postleitzahl / einen Ort an ..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> ist eine Untergemeinde von <em>{{principal}}</em>"
+			}
+		}
+	},
+	"street": {
+		"placeholder": {
+			"input-placeholder": "Geben Sie einen Straßennamen an ..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> ist eine Untergemeinde von <em>{{principal}}</em>"
+			}
+		}
+	},
+	"streetNumber": {
+		"placeholder": {
+			"input-placeholder": "Geben Sie eine Hausnummer an ..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> ist eine Untergemeinde von <em>{{principal}}</em>"
+			}
+		},
+		"message": {
+			"not-in-list": "Die Hausnummer ist nicht in der Liste"
+		}
+	},
+	"boxNumber": {
+		"placeholder": {
+			"input-placeholder": "Geben Sie eine Boxnummer an ..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> ist eine Untergemeinde von <em>{{principal}}</em>"
+			}
+		},
+		"message": {
+			"not-in-list": "Die Boxnummer ist nicht in der Liste"
+		}
+	}
+}

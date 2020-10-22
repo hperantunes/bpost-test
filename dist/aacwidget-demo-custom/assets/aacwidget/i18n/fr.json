@@ -1,0 +1,62 @@
+{
+	"common": {
+		"message": {
+			"address-not-found": "Adresse non-reconnue.",
+			"address-validated": "L'adresse a été validée.",
+			"service-unavailable": "Le service n'est pas disponible, veuillez réessayer plus tard."
+		},
+		"label": {
+			"boxNumber": "une boîte postale",
+			"streetNumber": "un numéro de maison",
+			"municipalityName": "un nom de commune",
+			"postalCode": "un code postal",
+			"streetName": "un nom de rue"
+		}
+	},
+	"locality": {
+		"placeholder": {
+			"input-placeholder": "Fournir un code postal / une localité..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> est une sous-commune de <em>{{principal}}</em>"
+			}
+		}
+	},
+	"street": {
+		"placeholder": {
+			"input-placeholder": "Fournir un nom de rue..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> est une sous-commune de <em>{{principal}}</em>"
+			}
+		}
+	},
+	"streetNumber": {
+		"placeholder": {
+			"input-placeholder": "Fournir un numéro de rue..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> est une sous-commune de <em>{{principal}}</em>"
+			}
+		},
+		"message": {
+			"not-in-list": "Le numéro de rue n'est pas dans la liste"
+		}
+	},
+	"boxNumber": {
+		"placeholder": {
+			"input-placeholder": "Fournir un numéro de boite..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> est une sous-commune de <em>{{principal}}</em>"
+			}
+		},
+		"message": {
+			"not-in-list": "Le numéro de boite n'est pas dans la liste"
+		}
+	}
+}

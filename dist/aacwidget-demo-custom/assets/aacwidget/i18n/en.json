@@ -1,0 +1,62 @@
+{
+	"common": {
+		"message": {
+			"address-not-found": "Address not recognized.",
+			"address-validated": "The address has been validated",
+			"service-unavailable": "The service could not be reached. Please try again later."
+		},
+		"label": {
+			"boxNumber": "box number",
+			"streetNumber": "house number",
+			"municipalityName": "municipality",
+			"postalCode": "postal code",
+			"streetName": "street name"
+		}
+	},
+	"locality": {
+		"placeholder": {
+			"input-placeholder": "Provide a postal code / locality..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> is a sub-municipality of <em>{{principal}}</em>"
+			}
+		}
+	},
+	"street": {
+		"placeholder": {
+			"input-placeholder": "Provide a streetName..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> is a sub-municipality of <em>{{principal}}</em>"
+			}
+		}
+	},
+	"streetNumber": {
+		"placeholder": {
+			"input-placeholder": "Provide a streetNumber..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> is a sub-municipality of <em>{{principal}}</em>"
+			}
+		},
+		"message": {
+			"not-in-list": "The House Number is not in the list"
+		}
+	},
+	"boxNumber": {
+		"placeholder": {
+			"input-placeholder": "Provide a boxNumber..."
+		},
+		"suggestion": {
+			"message": {
+				"subl": "<em>{{sub}}</em> is a sub-municipality of <em>{{principal}}</em>"
+			}
+		},
+		"message": {
+			"not-in-list": "The Box Number is not in the list"
+		}
+	}
+}

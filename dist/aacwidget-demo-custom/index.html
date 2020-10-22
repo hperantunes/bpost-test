@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AacwidgetDemo</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <script>
+    function insertScript(filename) {
+        var head = document.getElementsByTagName('head')[0];
+        var script = document.createElement('script');
+        script.src = filename;
+        script.type = 'text/javascript';
+        head.appendChild(script);
+    }
+    
+    // Internet Explorer 9-11
+    var isIE = /*@cc_on!@*/false || !!document.documentMode;
+    // Edge 20+
+    var isEdge = !isIE && !!window.StyleMedia;
+
+    console.log('is this IE ?', isIE);
+    // Internet Explorer 6-11
+    // var isIE = /*@cc_on!@*/false || !!document.documentMode;
+    if(isIE === true || isEdge === true /*|| isFirefox===true*/) {
+      //var filename = "./assets/js/custom-elements.min.js";
+      var filename = "https://cdnjs.cloudflare.com/ajax/libs/custom-elements/1.3.0/custom-elements.min.js";
+      insertScript(filename);
+      filename = "https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js";
+      insertScript(filename);
+    }
+
+    if(isIE === false /*&& isFirefox===false*/) {
+      var filename = "https://unpkg.com/@webcomponents/webcomponentsjs@2.0.3/custom-elements-es5-adapter.js";
+      insertScript(filename);
+    }
+  </script>
+  
+<link rel="stylesheet" href="styles.92b3a48226607f504e98.css"></head>
+<body>
+  <app-root></app-root>
+<script src="runtime.c51bd5b1c616d9ffddc1.js" defer></script><script src="polyfills-es5.fb4cb20fe51e187308e1.js" nomodule defer></script><script src="polyfills.b22a0435e934d5fc1851.js" defer></script><script src="scripts.b0e2e150626be5bae74f.js" defer></script><script src="main.32f5a7da9ac2d2d53f09.js" defer></script></body>
+</html>
